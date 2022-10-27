@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+/* 
+------NAVBAR------
+*/
+.nav-container{
+    width: 100%;
+}
+.nav-container-list{
+    border: 1px solid black;
+    width: 100%;
+    height: 70px; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+
+}
+
+.nav-item{
+    border: px solid black;
+    width: 15%;
+    height: 50px;
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: black; 
+}
+
+.carpool{
+    margin-right: 20%;
+}
+
+
+/*
+-----MAIN------
+*/
+
+.main-container{
+    border: px solid black;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.driver-passenger-container{
+    border: 1px solid blue;
+    height: 500px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.driver-container, .passenger-container {
+    border: px solid red;
+    height: 500px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.driver-container {
+    
+}
+
+.driver-registration-btn {
+    width: 35%;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 85px;
+}
+.passenger-container {
+    
+}
+
+.passenger-registration-btn {
+    width: 35%;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 85px;
+}
+
+
+/*
+-----DESCRIPTION-----
+*/
+
+.description-container{
+    border: 1px solid black;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description-wrapper{
+    border: 1px solid blue;
+    height: 400px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.small-description, .description-img{
+    border: 1px solid black;
+    height: 400px;
+    width: 50%;
+}
+
+.small-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
